@@ -2,12 +2,14 @@ package com.duoinc.vultur.mapper
 
 import com.duoinc.vultur.domain.entity.ProfileEntity
 import com.duoinc.vultur.domain.model.Profile
+import org.springframework.stereotype.Component
 
 interface ProfileMapper {
     fun toEntity(profile: Profile) : ProfileEntity
     fun toModel(profileEntity: ProfileEntity) : Profile
 }
 
+@Component
 class ProfileMapperImpl : ProfileMapper {
     override fun toEntity(profile: Profile): ProfileEntity {
         return ProfileEntity(
