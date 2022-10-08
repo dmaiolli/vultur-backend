@@ -12,7 +12,7 @@
 	<artifactId>vultur</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<name>vultur</name>
-	<description>Demo project for Spring Boot</description>
+	<description>De maneira simples, a aplicação permite que um usuário acompanhe mudanças realizadas na seção “biografia” de outro usuário. Assim, quando o perfil monitorado retira um elemento ou palavra-chave do texto, o outro usuário recebe uma notificação da alteração.</description>
 	<properties>
 		<java.version>17</java.version>
 		<kotlin.version>1.6.21</kotlin.version>
