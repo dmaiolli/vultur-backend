@@ -11,6 +11,7 @@ data class ProfileEntity(
     @ManyToOne(targetEntity = UserEntity::class)
     val userId: String,
     val username: String,
+    @ElementCollection(targetClass = String::class)
     val keywords: List<String>
 ) {
 }
